@@ -10,3 +10,4 @@ A rust OS
 - 2022_11_27 :
   - Finally figured out why it wasnt compiling :')
   - Needed LLVM tools .... added cmoponent from rustup, can finally get back to testing
+  - Finished writing the tests part ... am writing this after commiting it all :')
