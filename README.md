@@ -7,3 +7,6 @@ A rust OS
 - 2022_11_20 : 
   - Built the tester which returns the results from a serial port (using a crate) and prints it on the console so qemu doesnt need to display anything :)
   - P.S. Im excited to be doin this :))))))
+- 2022_11_27 :
+  - Finally figured out why it wasnt compiling :')
+  - Needed LLVM tools .... added cmoponent from rustup, can finally get back to testing
