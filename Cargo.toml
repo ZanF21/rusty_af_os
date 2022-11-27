@@ -22,3 +22,8 @@ test-args = [
     "-device", "isa-debug-exit,iobase=0xf4,iosize=0x04", "-serial", "stdio",
     "-display", "none"
 ]
+test-timeout = 30 #reduced val
+
+[[test]]
+name = "should_panic"
+harness = false
